@@ -1,0 +1,97 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+  color: #000;
+}
+
+.alinha-form{
+   width: 60dvw;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  padding: 0 5px;
+  border: none;
+  border-bottom: solid 1px black; 
+  background-color: transparent;
+  transition: .3s;
+}
+input:focus{
+  outline: none;
+  border-bottom: #252B45 solid 2px;
+}
+form{
+  min-height: 80dvh;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 30dvw ;
+}
+
+
+button{
+  padding: 1rem;
+  background-color: #252B45 ;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover{
+  background-color: #3d4671;
+}
+
+label{
+  display: flex;
+flex-direction: column;
+  justify-content: space-between;
+ gap: 10px;
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+}
+.alinha-inputs{
+display: flex;
+flex-direction: row;
+gap: 35px;
+}
+
+.decoration{
+  background-image: url("https://lh3.googleusercontent.com/p/AF1QipNuga0RqAtIucy9udP7vFGwf79Do1ety084TXO3=s1360-w1360-h1020-rw");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40dvw;
+  height: 100dvh;
+}
+
+.layer{
+  width: 100%;
+  height: 100%;
+  background-color: #252b4582;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  background-color: #f7f7f7;
+  border-radius: 50%;
+}
+label span{
+  font-weight: bold;
+}
+.limpa-btn{
+  background-color: #fff;
+  border: #252B45 solid 1px;
+  color: #252B45;
+}
