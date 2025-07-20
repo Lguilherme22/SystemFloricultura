@@ -1,73 +1,73 @@
-.container{
+.container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f7f7f7;
+  background-color: #e9dddd;
   color: #000;
 }
 
-.alinha-form{
-   width: 60dvw;
+.alinha-form {
+  width: 60dvw;
   height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-input{
+input {
   padding: 0 5px;
   border: none;
-  border-bottom: solid 1px black; 
+  border-bottom: solid 1px #000;
   background-color: transparent;
-  transition: .3s;
+  transition: 0.3s;
+  color: #000;
 }
-input:focus{
+input:focus {
   outline: none;
-  border-bottom: #252B45 solid 2px;
+  border-bottom: #252b45 solid 2px;
 }
-form{
+form {
   min-height: 80dvh;
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 30dvw ;
+  min-width: 30dvw;
 }
 
-
-button{
+button {
   padding: 1rem;
-  background-color: #252B45 ;
+  background-color: #252b45;
   border: none;
   font-weight: bold;
   font-size: 1.2rem;
-  color: white;
+  color: #e9dddd;
   border-radius: 5px;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-button:hover{
+button:hover {
   background-color: #3d4671;
 }
 
-label{
+label {
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   justify-content: space-between;
- gap: 10px;
+  gap: 10px;
   width: 100%;
   height: 20px;
   margin-top: 10px;
 }
-.alinha-inputs{
-display: flex;
-flex-direction: row;
-gap: 35px;
+.alinha-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
 }
 
-.decoration{
+.decoration {
   background-image: url("https://lh3.googleusercontent.com/p/AF1QipNuga0RqAtIucy9udP7vFGwf79Do1ety084TXO3=s1360-w1360-h1020-rw");
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +75,7 @@ gap: 35px;
   height: 100dvh;
 }
 
-.layer{
+.layer {
   width: 100%;
   height: 100%;
   background-color: #252b4582;
@@ -83,15 +83,46 @@ gap: 35px;
   align-items: center;
   justify-content: center;
 }
-.logo{
+.logo {
   background-color: #f7f7f7;
   border-radius: 50%;
 }
-label span{
+label span {
   font-weight: bold;
 }
-.limpa-btn{
-  background-color: #fff;
-  border: #252B45 solid 1px;
-  color: #252B45;
+
+.add-produto {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  font-size: large;
+}
+
+.alinha-produto {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.produtos {
+
+  display: flex;
+  width: 100%;
+  gap: 10px;
+overflow-x: scroll;
+}
+.produtos::-webkit-scrollbar{
+  display: none;
+}
+.produto {
+  background-color: #252b45;
+  color: #e9dddd;
+  font-weight: bold;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  height: auto;
+  max-width: 80%;
 }
